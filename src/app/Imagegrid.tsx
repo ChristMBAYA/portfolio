@@ -4,7 +4,7 @@ const images = [
     {
       src: "/image/premiere.jpg",
       alt: "Image 1",
-      title: "7/24/19",
+      title: "Céramique d'argile",
       description:
         "",
       fullText: "",
@@ -14,7 +14,7 @@ const images = [
     {
       src: "/image/deuxieme.jpg",
       alt: "Image2",
-      title: "7/22/19",
+      title: "5 montres passées",
       description:
         "",
       fullText: "",
@@ -24,7 +24,7 @@ const images = [
     {
       src: "/image/troisieme.jpg",
       alt: "Image3",
-      title: "7/19/19",
+      title: "Spécialistes",
       description:
         "",
       fullText: "",
@@ -34,7 +34,7 @@ const images = [
     {
       src: "/image/troisieme.jpg",
       alt: "Image3",
-      title: "7/16/19",
+      title: "Studio Vega",
       description:
         "",
       fullText: " ", 
@@ -44,7 +44,7 @@ const images = [
     {
       src: "/image/cinquieme.jpg",
       alt: "Image5",
-      title: "7/16/19",
+      title: "Menuiserie sacket",
       description:
         "",
       fullText: "",
@@ -54,7 +54,7 @@ const images = [
     {
       src: "/image/sixieme.jpg",
       alt: "Image6",
-      title: "6/14/19",
+      title: "Pépinière Crosby",
       description:
        "",
       fullText: "",
@@ -89,12 +89,7 @@ const images = [
                   <p className="text-black text-center">
                     {image.fullText}
                   </p>
-                  <Link
-                    href={`/blog/${index}`}
-                    className=" mt-2 inline-block text-center text-blue-500 hover:underline"
-                  >
-                    Read more
-                  </Link>
+                  
                 </div>
               </div>
             ))}
